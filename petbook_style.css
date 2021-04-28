@@ -1,6 +1,7 @@
 body {
-    background-color: #798ab1;
+    background-color: #3F3269;
 }
+
 .formulario {
     border: 1px;
     border-radius: 8px;
@@ -8,8 +9,7 @@ body {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     width: fit-content;
     margin: 0 auto;
-    background-color: #FFFFFF;
-
+    background-color: #575269;
 }
 
 input {
@@ -20,16 +20,25 @@ input {
 .text-boxes {
     padding: 4px 4px 4px 8px;
     height: 20%;
+    border: none;
     border-radius: 16px;
     text-align: left;
+    background-color: #3F3269;
+}
+
+.text-boxes::placeholder {
+    color: darkgray;
 }
 
 input[type=color] {
-    size: 40px;
+    width: 40px;
+    height: 40px;
+    border-color: transparent;
 }
 
 #petbook {
     font-family: 'Open Sans', sans-serif;
+    color: white;
 }
 
 #title {
@@ -38,12 +47,14 @@ input[type=color] {
     margin-bottom: 10%;
 }
 
-#title p {
+p, label {
     font-family: 'Source Sans Pro', sans-serif;
+    color: white;
 }
 
 input[type=submit] {
     width: auto;
     padding: 8px;
-    background-color: #507ad5;
+    background-color: #8b70e7;
+    color: white;
 }

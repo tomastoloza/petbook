@@ -2,11 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>PetBook 🐾</title>
+    <title>PetBook</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&family=Source+Sans+Pro&display=swap"
           rel="stylesheet">
+    <link rel="icon"
+          href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🐾</text></svg>">
     <link rel="stylesheet" href="petbook_style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
 <div id="title">
@@ -16,11 +19,17 @@
 <div class="formulario">
     <form action="https://formspree.io/f/mgervrya"
           method="POST">
-        <label>Nombre </label><br><input name="Nombre" type="text" placeholder="Max" required class="text-boxes"><br>
-        <label>Años </label><br><input name="Años" type="number" placeholder="5" required class="text-boxes"><br>
-        <label>Email </label><br><input name="Email" type="email" placeholder="mascota@petbook.com" required class="text-boxes"><br>
-        <label>Contraseña </label><br><input name="Contraseña" type="password" placeholder="********" required class="text-boxes"><br>
-        <label>Color predominante </label><br><input name="Color" type="color" required><br>
+        <label>Nombre <br>
+            <input name="Nombre" type="text" placeholder="Max" required class="text-boxes">
+        </label><br>
+        <label>Años <br><input name="Años" type="number" placeholder="5" required class="text-boxes">
+        </label><br>
+        <label>Email <br><input name="Email" type="email" placeholder="mascota@petbook.com" required
+                                class="text-boxes">
+        </label><br>
+        <label>Contraseña<br><input name="Contraseña" type="password" placeholder="********" required
+                                    class="text-boxes"></label><br>
+        <label>Color predominante <br><input name="Color" type="color" required></label><br>
         <input type="submit" value="Crear cuenta" class="text-boxes">
     </form>
 </div>
